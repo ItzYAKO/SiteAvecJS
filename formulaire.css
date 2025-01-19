@@ -1,0 +1,47 @@
+/* Style pour les champs valides et invalides */
+.valid {
+    background-color: green;
+    border-color: green;
+}
+
+.invalid {
+    border-color: red;
+    background-color: red;
+}
+
+/* Ajout de styles pour le formulaire */
+form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+/* Style du formulaire */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+/* Style du bouton */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Chhangement de couleur au survol du bouton */
+button:hover {
+    background-color: #45a049;
+}

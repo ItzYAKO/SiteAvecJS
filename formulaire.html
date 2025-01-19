@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+
+    <form id="myForm">
+        <label for="pseudo">Pseudo :</label>
+        <input type="text" id="pseudo" name="pseudo">
+        <br>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <label for="verifyPassword">Vérification Mot de passe :</label>
+        <input type="password" id="verifyPassword" name="verifyPassword">
+        <br>
+
+        <label for="question">Quel est votre fruit préféré ?</label><br>    
+
+
+        <div><input type="radio" id="apple" name="question" value="apple">
+            <label for="apple">Pomme</label><br>
+        <input type="radio" id="banana" name="question" value="banana">
+        <label for="banana">Banane</label><br>
+        <input type="radio" id="orange" name="question" value="orange">
+        <label for="orange">Orange</label><br>
+        </div>
+
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <script src="formulaire.js"></script>
+
+</body>
+</html>
