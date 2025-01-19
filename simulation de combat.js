@@ -1,4 +1,4 @@
-// Classe représentant un combattant
+// Classe représentant un gladiateur
 class Gladiator {
     constructor(name, health, damage, accuracy) {
         this.name = name;
@@ -40,6 +40,7 @@ while (fighter1.health > 0 && fighter2.health > 0) {
         console.log(`${fighter2.name} est vaincu ! ${fighter1.name} remporte le combat !`);
         break;
     }
+
 
     // Fighter 2 attaque Fighter 1
     fighter2.attack(fighter1);
